@@ -1,0 +1,66 @@
+# AI Project - Deliverable: Bibliography
+
+## Project Title: IA for HumanForYou (Predictive Attrition Analysis)
+
+| Project Group Members | Role |
+| :--- | :--- |
+| **El Meskine Anas** | ** |
+| **Haider Maisam** | ** |
+| **Ferchichi Haifa** | ** |
+| **Gautier Quentin** | ** |
+
+---
+
+This document presents the academic, technical, and industry references that guided our work on the HumanForYou project. The sources are organized by theme to clearly indicate their relevance to the concepts covered, the chosen methodologies, and the ethical decision-making process.
+
+***
+
+## 1. Methodological and Theoretical Sources
+
+**Methodological and Theoretical Sources:**
+*(References dealing with the theoretical bases of machine learning, classification models, handling class imbalance, and HR analytics (People Analytics))*
+
+| Source/Reference | Type / License | Contribution and Justification |
+| :--- | :--- | :--- |
+| **Hastie, T., Tibshirani, R., & Friedman, J.** *The Elements of Statistical Learning.* | Academic Textbook | Provides the theoretical foundations for the selection and validation of supervised learning algorithms (e.g., Logistic Regression, Tree-based methods) used for attrition classification. |
+| **Chawla, N. V. et al.** *SMOTE: Synthetic Minority Over-sampling Technique.* | Academic Paper | Justifies the methodological approach used to address the class imbalance issue (15% attrition) through techniques like over-sampling (SMOTE) or using cost-sensitive learning metrics. |
+| **Bersin, J.** *The HR Technology Landscape.* | Industry Report / Professional Book | Provides a strategic and managerial context for the project, validating the use of data-driven methods to address workforce problems like turnover and talent retention. |
+
+***
+
+## 2. Sources on Technical Aspects
+
+**Sources on Technical Aspects:**
+*(References describing the specific techniques used: Python libraries, Explainable AI (XAI), Feature Engineering for time series.)*
+
+| Source/Reference | Type / License | Contribution and Justification |
+| :--- | :--- | :--- |
+| **Lundberg, S. M., & Lee, S. I. (2017).** *"A Unified Approach to Interpreting Model Predictions."* (NeurIPS '17) | Academic Paper / Standard Copyright | Justifies the use of **SHAP values** (SHapley Additive Explanations) for **model interpretability (XAI)**, enabling the team to explain the *reasons why* a factor influences attrition, a crucial step for formulating transparent recommendations. |
+| **Scikit-learn documentation.** | Open Source / Technical Docs | Justifies the implementation choices regarding model training, hyperparameter tuning (e.g., GridSearchCV), and the use of standard metrics (ROC AUC, Precision, Recall) for model evaluation. |
+| **[Article sur le Traitement des séries temporelles RH]** e.g., Article on calculating work hours, consistency, and anomaly detection from `in_out_time` data. | Technical Blog / Academic Article | Justifies the specific feature engineering steps applied to the `in_out_time` data (e.g., calculating daily/monthly overtime, variability in arrival/departure times) to create relevant features for the predictive model. |
+
+***
+
+## 3. Ethical and Societal Sources
+
+**Ethical and Societal Sources:**
+*(References relating to ethical standards, bias, and governance frameworks. Includes the European Commission's framework.)*
+
+| Source/Reference | Type / License | Contribution and Justification |
+| :--- | :--- | :--- |
+| **European Commission (EC):** *Ethics Guidelines for Trustworthy AI (High-Level Expert Group on AI - HLEG)* | Regulatory / EC Publication | **Core Ethical Framework.** Establishes the seven core requirements (Fairness, Transparency, Accountability, etc.) that structure the ethical deliverable and guide the team's decisions regarding bias mitigation and human oversight. |
+| **IBM.** *AI Fairness 360 (AIF360) Toolkit Documentation.* | Open Source / Apache 2.0 License | Justifies the **technical approach to fairness and bias mitigation**. It supports the selection and calculation of fairness metrics (e.g., Disparate Impact, Equal Opportunity Difference) to ensure the model does not discriminate against protected groups (Section 3.5). |
+| **Deloitte.** *Mobilising AI: Unlocking new experiences and insights to manage your global workforce.* (July 2025). | Commercial Report / Consulting Publication | Provides a **specific risk framework for AI in HR**, emphasizing the need for human validation, data privacy, and ethical compliance in predictive systems. It informs the definition of ethical vigilance points (Section 4). |
+
+***
+
+## 4. Project-Specific Sources
+
+**Project-Specific Sources:**
+*(Sources that directly inspired the approach, the problem, or the management of similar cases.)*
+
+| Source/Reference | Type / License | Contribution and Justification |
+| :--- | :--- | :--- |
+| **Kaggle:** *HR Analytics Case Study* (Original Data Source) | Data Repository / Community | Acknowledges the origin and the initial context of the dataset. Guides the team on common feature preparation steps and initial model benchmarks associated with this specific data. |
+| **4Spot Consulting.** *Strategic HR Data Governance: 7 Essential Principles.* | Consulting/Industry Publication | Establishes fundamental **Data Governance principles** (Data Quality, Access Control) essential for handling sensitive employee data, thereby strengthening the compliance and privacy aspects of the project (Section 3.3). |
+| **[Case Study Similaire/Article sur la prédiction d'attrition]** e.g., Article on *Predicting Turnover using Employee Survey Data*. | Academic Article / Industry Case Study | Provides practical guidance on how to merge, clean, and utilize employee survey data (like `employee_survey_data.csv` containing 'NA' values) and manager assessments (`manager_survey_data.csv`) effectively in a predictive model. |
