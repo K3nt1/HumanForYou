@@ -128,7 +128,7 @@ Our ethical methodology is integrated throughout the project lifecycle, from dat
 
 By integrating the seven ethical requirements of the European Commission into our methodology, we ensure that the AI solution developed for HumanForYou is not only effective in reducing employee turnover but is also **fair, transparent, and respectful** of human autonomy and data privacy. The model's primary function is to **empower the HR department** with systemic insights, allowing them to make **ethically sound, human-centered policy decisions**.
 
-## 6. 📚 Resources and Bibliography
+## 6. Resources and Bibliography
 
 This section lists the key academic, technical, and regulatory sources that guided the ethical framework and methodological choices for the HumanForYou AI project.
 
