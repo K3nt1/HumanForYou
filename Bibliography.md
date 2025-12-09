@@ -1,7 +1,5 @@
 # AI Project - Deliverable: Bibliography
 
-## Project Title: IA for HumanForYou (Predictive Attrition Analysis)
-
 | Project Group Members | Role |
 | :--- | :--- |
 | **El Meskine Anas** | ** |
