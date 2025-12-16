@@ -5,7 +5,7 @@
 | Project Group Members | Role |
 | :--- | :--- |
 | **El Meskine Anas** | ** |
-| **Haider Maisam** | ** |
+| **Haider Maisam** | *Project Manager* |
 | **Ferchichi Haifa** | ** |
 | **Gautier Quentin** | ** |
 
