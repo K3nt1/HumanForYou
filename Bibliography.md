@@ -2,10 +2,10 @@
 
 | Project Group Members | Role |
 | :--- | :--- |
-| **El Meskine Anas** | ** |
+| **El Meskine Anas** | *Data Analyst* |
 | **Haider Maisam** | *Project Manager* |
-| **Ferchichi Haifa** | ** |
-| **Gautier Quentin** | ** |
+| **Ferchichi Haifa** | *Data Engineer* |
+| **Gautier Quentin** | *Machine Learning Engineer* |
 
 ---
 
