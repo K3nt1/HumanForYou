@@ -58,6 +58,7 @@ Our ethical methodology is integrated throughout the project lifecycle, from dat
 | Ethical Decision/Vigilance Point | Justification/Implementation |
 | :--- | :--- |
 | **Recommendation Scope** | The AI model must only generate **macro-level recommendations** (e.g., increase salary in department X, improve work-life balance in role Y), **not individual employee risk scores** used for punitive actions. |
+| **False Positive Management** | The model was technically optimized for **'Recall'** (sensitivity), which may generate **false alarms**. Consequently, **human intervention is mandatory**: the AI serves solely as a weak signal to initiate a discussion on well-being, and **never to validate a presumed disengagement of the employee**. |
 | **Human Oversight** | **Final decisions** on policy changes and interventions **must remain with HR/Management**. The AI serves as an advisory tool, not a decision-maker. |
 
 ### 3.2. Technical Robustness and Security
@@ -77,6 +78,7 @@ Our ethical methodology is integrated throughout the project lifecycle, from dat
 | :--- | :--- |
 | **Data Minimization** | Exclusion of any personally identifiable information (PII) beyond what was strictly provided and necessary (`EmployeeID` is not PII but serves as a linkage key). Variables like `EmployeeCount` and `Over18` (redundant) were **dropped to reduce data footprint**. |
 | **Data Retention** | A clear policy must be established with HumanForYou management regarding the **destruction of the derived dataset** and the original files upon project completion. |
+| **Sensitive Data Context** | Although the model uses attendance log data (`in_out_time`), these are aggregated into **'Average Working Time'** solely to identify signs of excessive workload (**Burnout Risk**) and not to monitor punctuality or individual attendance for disciplinary purposes. |
 
 ### 3.4. Transparency
 
@@ -84,7 +86,7 @@ Our ethical methodology is integrated throughout the project lifecycle, from dat
 
 | Ethical Decision/Vigilance Point | Justification/Implementation |
 | :--- | :--- |
-| **Model Choice** | Prioritizing **interpretable models** (e.g., Logistic Regression, Decision Trees) or using **Explainable AI (XAI)** techniques (e.g., SHAP, LIME) alongside complex models (e.g., Gradient Boosting) to articulate *why* a factor drives attrition. |
+| **Model Interpretability** | We selected a **Random Forest algorithm** that allows for the extraction of variable importance (**Feature Importance**). This ensures that every prediction **can be explained** by **concrete factors** (e.g., Workload, Salary, Distance) and that **no decision is made by an opaque 'black box'**. |
 | **Documentation** | Clear and comprehensive documentation of the **data processing steps** and the **model's limitations** for the client. |
 
 ### 3.5. Diversity, Non-discrimination, and Fairness
@@ -93,6 +95,7 @@ Our ethical methodology is integrated throughout the project lifecycle, from dat
 
 | Ethical Decision/Vigilance Point | Justification/Implementation |
 | :--- | :--- |
+| **Protected Attributes Usage** | Protected attributes (Age, Gender) are **included in the training model** to audit organizational biases (e.g., identifying if younger employees are systemically retained at lower rates) and **not to base promotion or recruitment** decisions on these criteria. |
 | **Bias Mitigation** | Careful monitoring of **disparate impact** across sensitive groups (e.g., Gender, Marital Status) regarding the predicted attrition risk. If gender or age are strong predictors, recommendations must focus on underlying *actionable* factors (e.g., low salary for a specific role/level, not gender itself). |
 | **Fairness Metrics** | Analysis of **parity metrics** (e.g., Equal Opportunity Difference) to ensure the model performs equally well for different employee subgroups. |
 
