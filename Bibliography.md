@@ -11,7 +11,14 @@
 
 This document presents the academic, technical, and industry references that guided our work on the HumanForYou project. The sources are organized by theme to clearly indicate their relevance to the concepts covered, the chosen methodologies, and the ethical decision-making process.
 
-***
+---
+
+## Table of Contents
+
+1. [Methodological and Theoretical Sources](#1-methodological-and-theoretical-sources)
+2. [Sources on Technical Aspects](#2-sources-on-technical-aspects)
+3. [Ethical and Societal Sources](#3-ethical-and-societal-sources)
+4. [Project-Specific Sources](#4-project-specific-sources)
 
 ## 1. Methodological and Theoretical Sources
 
@@ -61,4 +68,4 @@ This document presents the academic, technical, and industry references that gui
 | :--- | :--- | :--- |
 | **Kaggle:** *HR Analytics Case Study* (Original Data Source) | Data Repository / Community | Acknowledges the origin and the initial context of the dataset. Guides the team on common feature preparation steps and initial model benchmarks associated with this specific data. |
 | **4Spot Consulting.** *Strategic HR Data Governance: 7 Essential Principles.* | Consulting/Industry Publication | Establishes fundamental **Data Governance principles** (Data Quality, Access Control) essential for handling sensitive employee data, thereby strengthening the compliance and privacy aspects of the project (Section 3.3). |
-| **[Case Study Similaire/Article sur la prédiction d'attrition]** e.g., Article on *Predicting Turnover using Employee Survey Data*. | Academic Article / Industry Case Study | Provides practical guidance on how to merge, clean, and utilize employee survey data (like `employee_survey_data.csv` containing 'NA' values) and manager assessments (`manager_survey_data.csv`) effectively in a predictive model. |
+| **Singh, P., et al.** *A Case Study on HR Analytics Employee Attrition Using Predictive Analytics.* (European Economic Letters, 2023). | Academic Article (Open Access) | **Validation of Pre-processing and Modeling methodology.** This study, conducted on a similar HR dataset, provides the academic justification for: <ul><li>**Handling Missing Data**: It supports the strategy of cleaning survey data (imputing or removing nulls) before modeling.</li><li>**Feature Selection**: It confirms the importance of converting categorical variables (like Job Role or Department) into numerical values (Encoding).</li><li>**Model Benchmarking**: It validates the relevance of comparing multiple algorithms (Logistic Regression vs. Random Forest) to solve the specific problem of employee turnover.</li></ul> |
