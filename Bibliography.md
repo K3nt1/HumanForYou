@@ -22,8 +22,9 @@ This document presents the academic, technical, and industry references that gui
 
 ## 1. Methodological and Theoretical Sources
 
-**Methodological and Theoretical Sources:**
-*(References dealing with the theoretical bases of machine learning, classification models, handling class imbalance, and HR analytics (People Analytics))*
+**Methodological and Theoretical Sources**
+
+*(References dealing with the theoretical bases of machine learning, classification models, handling class imbalance, and HR analytics)*
 
 | Source/Reference | Type / License | Contribution and Justification |
 | :--- | :--- | :--- |
@@ -35,12 +36,12 @@ This document presents the academic, technical, and industry references that gui
 
 ## 2. Sources on Technical Aspects
 
-**Sources on Technical Aspects:**
-*(References describing the specific techniques used: Python libraries, Explainable AI (XAI), Feature Engineering for time series.)*
+**Sources on Technical Aspects**
+
+*(References describing the specific techniques used: Python libraries, Feature Engineering for time series.)*
 
 | Source/Reference | Type / License | Contribution and Justification |
 | :--- | :--- | :--- |
-| **Lundberg, S. M., & Lee, S. I. (2017).** *"A Unified Approach to Interpreting Model Predictions."* (NeurIPS '17) | Academic Paper / Standard Copyright | Justifies the use of **SHAP values** (SHapley Additive Explanations) for **model interpretability (XAI)**, enabling the team to explain the *reasons why* a factor influences attrition, a crucial step for formulating transparent recommendations. |
 | **Scikit-learn documentation.** | Open Source / Technical Docs | Justifies the implementation choices regarding model training, hyperparameter tuning (e.g., GridSearchCV), and the use of standard metrics (ROC AUC, Precision, Recall) for model evaluation. |
 | **Atique, M., et al.** *Enhancing Employee Turnover Prediction: An Advanced Feature Engineering Analysis.* (Computer Systems Science and Engineering, 2025). | Academic Article (Open Access) | **Validation of Feature Engineering Strategy.** This recent study confirms that raw HR data is insufficient for accurate predictions without advanced transformation. The authors demonstrate that introducing specific engineered features significantly improves model accuracy (Recall/F1-Score) for turnover prediction, directly validating our approach of creating calculated features like `AverageWorkingHours` to better capture employee behavior. |
 
@@ -48,7 +49,8 @@ This document presents the academic, technical, and industry references that gui
 
 ## 3. Ethical and Societal Sources
 
-**Ethical and Societal Sources:**
+**Ethical and Societal Sources**
+
 *(References relating to ethical standards, bias, and governance frameworks. Includes the European Commission's framework.)*
 
 | Source/Reference | Type / License | Contribution and Justification |
@@ -61,7 +63,8 @@ This document presents the academic, technical, and industry references that gui
 
 ## 4. Project-Specific Sources
 
-**Project-Specific Sources:**
+**Project-Specific Sources**
+
 *(Sources that directly inspired the approach, the problem, or the management of similar cases.)*
 
 | Source/Reference | Type / License | Contribution and Justification |
