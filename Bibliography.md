@@ -31,7 +31,7 @@ This document presents the academic, technical, and industry references that gui
 | **Chawla, N. V. et al.** *SMOTE: Synthetic Minority Over-sampling Technique.* | Academic Paper | Justifies the methodological approach used to address the class imbalance issue (15% attrition) through techniques like over-sampling (SMOTE) or using cost-sensitive learning metrics. |
 | **Bersin, J.** *The HR Technology Landscape.* | Industry Report / Professional Book | Provides a strategic and managerial context for the project, validating the use of data-driven methods to address workforce problems like turnover and talent retention. |
 
-***
+---
 
 ## 2. Sources on Technical Aspects
 
@@ -44,7 +44,7 @@ This document presents the academic, technical, and industry references that gui
 | **Scikit-learn documentation.** | Open Source / Technical Docs | Justifies the implementation choices regarding model training, hyperparameter tuning (e.g., GridSearchCV), and the use of standard metrics (ROC AUC, Precision, Recall) for model evaluation. |
 | **[Article sur le Traitement des séries temporelles RH]** e.g., Article on calculating work hours, consistency, and anomaly detection from `in_out_time` data. | Technical Blog / Academic Article | Justifies the specific feature engineering steps applied to the `in_out_time` data (e.g., calculating daily/monthly overtime, variability in arrival/departure times) to create relevant features for the predictive model. |
 
-***
+---
 
 ## 3. Ethical and Societal Sources
 
@@ -57,7 +57,7 @@ This document presents the academic, technical, and industry references that gui
 | **IBM.** *AI Fairness 360 (AIF360) Toolkit Documentation.* | Open Source / Apache 2.0 License | Justifies the **technical approach to fairness and bias mitigation**. It supports the selection and calculation of fairness metrics (e.g., Disparate Impact, Equal Opportunity Difference) to ensure the model does not discriminate against protected groups (Section 3.5). |
 | **Deloitte.** *Mobilising AI: Unlocking new experiences and insights to manage your global workforce.* (July 2025). | Commercial Report / Consulting Publication | Provides a **specific risk framework for AI in HR**, emphasizing the need for human validation, data privacy, and ethical compliance in predictive systems. It informs the definition of ethical vigilance points (Section 4). |
 
-***
+---
 
 ## 4. Project-Specific Sources
 
