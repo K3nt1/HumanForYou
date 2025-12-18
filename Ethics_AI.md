@@ -121,7 +121,7 @@ Our ethical methodology is integrated throughout the project lifecycle, from dat
 
 ## 4. Key Ethical Decisions and Vigilance Points
 
-* **Decision 1: Focus on Actionable Insights.** We decided not to build a high-risk prediction system identifying individuals, but rather an **explanatory system** identifying systemic weaknesses (e.g., "Employees with < 2 years at the company and low Job Satisfaction are at high risk"). This maintains autonomy.
+* **Decision : Focus on Actionable Insights.** We decided not to build a high-risk prediction system identifying individuals, but rather an **explanatory system** identifying systemic weaknesses (e.g., "Employees with < 2 years at the company and low Job Satisfaction are at high risk"). This maintains autonomy.
 * **Vigilance Point 1: Work-Life Balance and Overtime.** The analysis of the `in_out_time` data must ensure that excessive working hours are identified as a **risk factor for attrition** and not used to punish employees with low commitment scores.
 * **Vigilance Point 2: Salary/Performance Bias.** Care must be taken to ensure that the model does not penalize historically underpaid roles or demographic groups simply because their low salary is a strong predictor of leaving. Recommendations must address the underlying **equity issue**.
 
